@@ -1,3 +1,24 @@
+*{
+	vertical-align: baseline;
+	font-size: 100%;
+	
+}
+
+body ,html {
+	font-family: 'Lato', sans-serif;
+}
+
+#top{
+	margin: 2% 20% 
+}
+
+
+
+.mainDetails{
+	margin: 1px;
+	padding: 20px 30px;
+	border-bottom: 2px solid  #cf8a05;
+}
 .clear {
 	clear: both;
 }
@@ -6,22 +27,104 @@
 	width: 12.5%;
 	float: left;
 	margin-right: 30px;
+	
+}
+#headshot img{
+	border-radius: 90%;
 }
 
 #name {
 	float: left;
+	margin: 20px;
+	padding: 2px;
+}
+
+#name h1  {
+	font-size: 2.5em;
+	font-style: bold;
+	margin: 0;
+	font-family: 'Rokkitt', sans-serif;
+}
+
+#name h2 {
+	font-size: 1.5em;
+	font-family: 'Rokkitt', sans-serif;
+	margin: 0;
+	font-weight: normal;
 }
 
 #contactDetails {
 	float: right;
+	margin: 30px 10px;
+	
+}
+
+#contactDetails ul{
+	list-style: none;
+	color: #444444;
+	text-decoration: none;
+
+}
+
+a:link{
+	color: #444444;
+	text-decoration: none;
+}
+
+
+
+#mainArea{
+	padding: 1px;
+	margin: 1px;
+	
 }
 
 .sectionTitle {
 	float: left;
 	width: 25%;
+	color: #cf8a05;
+	font-weight: normal;
+	font-size: 1.5em;
+	font-style: italic;
+	font-family: 'Rokkitt', sans-serif;
+	
+	
 }
 
 .sectionContent {
 	float: right;
-	width: 72.5%;
+	width: 70%;
+	text-align: justify;
+	color: #444444;
+	margin: 5px;
+	padding: 2px;
+	
+	
+}
+
+section:not(#finale){
+	border-bottom: 1px solid #dedede;
+}
+
+
+.sectionContent h2 {
+	font-size: 1.5em;
+	margin: 0;
+	padding-top: 2%;
+	color: #181818;
+	font-weight: normal;
+}
+
+.subDetails {
+    font-size: 0.8em;
+    font-style: italic;
+    margin-bottom: 3px;
+	margin: 0;
+	color: #444444;
+}
+
+.keySkills{
+
+	list-style: none;
+	column-count: 3;
 }
